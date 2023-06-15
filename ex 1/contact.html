@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-header">
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+            <a href="" class="link-nav">Héros</a>
+            <a href="familleroyale.html" class="link-nav">Famille Royale</a>
+            <a href="ressources.html" class="link-nav">Ressources</a>
+            <a href="contact.html" class="link-nav">Contact</a>
+        </nav>
+    </header>
+
+    <main id="contact" class="containercontact">
+        <h2>Nous contacter</h2>
+        <div id="msg">
+
+        </div>
+        <form id="contactform">
+            <div class="formrow">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" value required minlength="2" maxlength="40">
+            </div>
+            <div class="formrow">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" value required minlength="2" maxlength="40">
+            </div>
+            <div class="formrow">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value required maxlength="100">    
+            </div>
+            <div class="formrow">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" value required minlength="20" maxlength="1000"></textarea>
+            </div>
+            <button id="btnsend" type="submit" value="send">Envoyer</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Site réalisé par <a href="https://www.onlineformapro.com/">Onlineformapro</a></p>
+    </footer>
+</body>
+</html>
