@@ -24,7 +24,7 @@ header a:hover{
     color: #ffc300;
     text-decoration: underline;
 }
-header a:active{
+header a.active{
     color: #ffc300;
 }
 
@@ -185,7 +185,7 @@ abel, input, textarea {
     background-color: lightpink;
     border: 1px solid red;
   }
-  
+
 footer a:link{
     color: blue;
 }
